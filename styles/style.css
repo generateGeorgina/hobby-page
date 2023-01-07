@@ -10,6 +10,19 @@ li,
     color: rgb(81, 60, 60);
     width: 500px;
 }
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+p,
+li {
+    font-size 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+h3 {
+    line-height: 3;
+}
 html {
     font-size: 15px; /*base font is 15 pixels high */
     font-family: 'Kalam', cursive;
