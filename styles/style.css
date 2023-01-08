@@ -4,11 +4,26 @@ html {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #2B3C78;
     color: #F1FFFA;
+    width: max-width;
+}
+body {
+    width: 650px;
+    margin: 20px 20px; /* if "0", no need for units and "auto" splits divides available space by 2*/
+    padding: 15px 15px 15px 15px;
+    border: 5px solid black;
+}
+img {
     width: 500px;
+    display: block; /*changing image from inline to block*/
+    margin: 0 auto; /* only works when image has block-level behaviour*/
 }
 h1 {
+    margin: 0; /* overriding brower's default styling*/
+    padding: 20px 0;
     font-size: 60px;
+    color: #2B3C78;
     text-align: center;
+    text-shadow: 5px 5px 10px black;
 }
 p,
 li {
