@@ -10,9 +10,10 @@ body {
     width: 650px;
     margin: 20px auto; /* if "0", no need for units and "auto" splits divides available space by 2*/
     padding: 15px 15px 15px 15px;
-    border: 10px solid white;
+    border: 4.5px solid white;
+    border-radius: 25px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; /* size of image to cover whole box which incl. padding */
     background-position: center;
     background-image: url(../images/pexels-johannes-plenio-1477835.jpg)
 }
@@ -24,9 +25,9 @@ img {
 h1 {
     position: -webkit-sticky; /* Safari*/
     position: sticky;
-    top: 0;
+    top: 0; /* for sticky position*/
     margin: 0; /* overriding brower's default styling*/
-    padding: 20px 0;
+    padding: 0;
     font-size: 60px;
     color: #2B3C78;
     text-align: center;
