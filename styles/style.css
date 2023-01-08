@@ -10,7 +10,11 @@ body {
     width: 650px;
     margin: 20px 20px; /* if "0", no need for units and "auto" splits divides available space by 2*/
     padding: 15px 15px 15px 15px;
-    border: 5px solid black;
+    border: 10px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/pexels-johannes-plenio-1477835.jpg)
 }
 img {
     width: 500px;
