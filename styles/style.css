@@ -42,6 +42,9 @@ li {
 h3 {
     line-height: 3;
 }
+figcaption {
+    text-align: center;
+}
 button {
     background-color: transparent;
     border-radius: 25px;
