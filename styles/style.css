@@ -36,7 +36,7 @@ h1 {
 }
 p,
 li {
-    font-size 16px;
+    font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
 }
@@ -52,4 +52,13 @@ button {
 }
 button:hover {
     box-shadow: 5px 5px 10px black;
+}
+img {
+    border-radius: 25px;
+}
+fieldset {
+    border: none;
+}
+legend {
+    height: 25px;
 }
