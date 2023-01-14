@@ -11,7 +11,7 @@ html {
     background-image: url(../images/pexels-johannes-plenio-1477835.jpg);
 }
 body {
-    width: 650px;
+    width: 80%; /* width 80% of parent body (HTML) */
     margin: 20px auto; /* if "0", no need for units and "auto" splits divides available space by 2*/
     padding: 15px 15px 15px 15px;
     border: 4.5px solid white;
@@ -33,6 +33,7 @@ h1 {
     color: #2B3C78;
     text-align: center;
     text-shadow: 5px 5px 10px black;
+    background-color: #2B3C78;
 }
 p,
 li {
@@ -61,4 +62,9 @@ fieldset {
 }
 legend {
     height: 25px;
+}
+header,
+footer {
+    font-size: smaller;
+    text-align: right;
 }
