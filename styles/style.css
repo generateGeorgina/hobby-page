@@ -1,9 +1,9 @@
 html {
     font-size: 15px; /*base font is 15 pixels high */
-    font-family: 'Kalam', cursive;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Kalam', cursive; /*cursive is the font's fallback value*/
+    font-family: 'Montserrat Alternates', sans-serif; /*sans-serif is the font's fallback value*/
     background-color: #2B3C78;
-    color: white;
+    color: aliceblue;
     width: max-width;
     background-repeat: no-repeat;
     background-size: cover; /* size of image to cover whole box which incl. padding */
@@ -13,9 +13,9 @@ html {
 body {
     width: 80%; /* width 80% of parent body (HTML) */
     margin: 20px auto; /* if "0", no need for units and "auto" splits divides available space by 2*/
-    padding: 15px 15px 15px 15px;
+    padding: 25px 25px 25px 25px;
     border: 4.5px solid white;
-    border-radius: 25px;
+    border-radius: 25px; /*all 4 sides are equal so only need to state the vlaue once*/
     background-color: #2B3C78;
 }
 img {
@@ -50,6 +50,7 @@ figcaption {
 button {
     background-color: transparent;
     border-radius: 25px;
+    color: aliceblue;
 }
 button:hover {
     box-shadow: 5px 5px 10px black;
@@ -63,8 +64,34 @@ fieldset {
 legend {
     height: 25px;
 }
-header,
-footer {
-    font-size: smaller;
+.header,
+.footer {
+    font-size: 10px;
     text-align: right;
+}
+.special {
+    display: inline-block;
+    width: 40%;
+}
+.read {
+    display: inline-block;
+    width: 40%;
+
+}
+hr {
+    height: 1px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+}
+a {
+    color: aliceblue;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: aliceblue;
+}
+a:active {
+    color: black;
 }
