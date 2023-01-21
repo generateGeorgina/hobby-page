@@ -21,14 +21,17 @@ body {
 img {
     width: 500px;
     display: block; /*changing image from inline to block*/
-    /*margin: 0 auto; /* only works when image has block-level behaviour*/
+    margin: 0 auto; /* only works when image has block-level behaviour*/
+}
+.tranquil-photo {
+    width: auto;
 }
 h1 {
     position: -webkit-sticky; /* Safari*/
     position: sticky;
     top: 0; /* for sticky position*/
-    /*margin: 0; /* overriding brower's default styling*/
-    /*padding: 0;*/
+    margin: 0; /* overriding brower's default styling*/
+    padding: 0;
     font-size: 60px;
     color: #2B3C78;
     text-align: center;
@@ -69,13 +72,13 @@ legend {
     font-size: 10px;
     text-align: right;
 }
-/*.special {
+.special {
     display: inline-block;
     width: 40%;
 }
 .read {
     display: inline-block;
-    width: 40%;*/
+    width: 40%;
 
 }
 hr {
