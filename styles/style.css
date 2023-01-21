@@ -13,7 +13,7 @@ html {
 body {
     width: 80%; /* width 80% of parent body (HTML) */
     margin: 20px auto; /* if "0", no need for units and "auto" splits divides available space by 2*/
-    padding: 25px auto 25px auto;
+    padding: 25px 15px 25px 15px;
     border: 4.5px solid white;
     border-radius: 25px; /*all 4 sides are equal so only need to state the vlaue once*/
     background-color: #2B3C78;
@@ -21,7 +21,7 @@ body {
 img {
     width: 250px;
     display: block; /* changing image from inline to block */
-    margin: 0 auto; /* only works when image has block-level behaviour */
+    margin: 0; /* only works when image has block-level behaviour */
     border-radius: 25px;
 }
 h1 {
