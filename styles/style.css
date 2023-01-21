@@ -30,6 +30,7 @@ h1 {
     top: 0; /* for sticky position */
     margin: 0; /* overriding brower's default styling */
     padding: 0;
+    width: 100%;
     font-size: 45px;
     color: #2B3C78;
     text-align: center;
