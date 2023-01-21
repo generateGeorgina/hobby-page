@@ -19,9 +19,9 @@ body {
     background-color: #2B3C78;
 }
 img {
-    width: 250px;
+    width: 80%;
     display: block; /* changing image from inline to block */
-    margin: 0; /* only works when image has block-level behaviour */
+    margin: 0 auto; /* only works when image has block-level behaviour */
     border-radius: 25px;
 }
 h1 {
