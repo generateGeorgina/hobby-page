@@ -16,20 +16,21 @@
             <form action=""> <!-- to group and build a seperate form -->
                 <legend>Do you read poetry?</legend>
                 <fieldset> <!-- to group the related radio buttons together -->
-                    <label> <!--to group input and the text "Yes" together -->
+                    <label for="poetryyes"> <!--to group input and the string "Yes" together -->
                         <input name="poetry-yes-no" value="yes" id="poetryyes" required type="radio">Yes
                     </label>
-                    <label>
+                    <label for="poetryno">
                         <input name="poetry-yes-no" value="no" id="poetryno" required type="radio">No
                     </label>
                 </fieldset>
                 <legend>What is the name of your favourite poem?</legend>
                 <input type="text" name="favouritepoem" placeholder="Twinkle, twinkle little star" size="40">
-                <button type="submit">Submit</button>
+
                 <legend>Reading this page are:</legend>
                 <input name="reader" type="checkbox" value="humans" id="humans" checked /> <label for="humans">Humans</label>
                 <!--alternative to associate text with input element using "id" (input) and "for" (label)-->
                     <input name="reader" type="checkbox" value="spiders" id="humans" /> <label for="spiders">Spiders</label>
+                <button type="submit">Submit</button>
             </form>
             <p>Click to enter <a href="info.html">Web Free Poems</a></p>
         </main>
