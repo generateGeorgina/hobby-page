@@ -94,3 +94,7 @@ a:hover {
 a:active {
     color: black;
 }
+.links {
+    display: inline-block;
+    width: 20%;
+}
