@@ -3,7 +3,7 @@ html {
     font-family: 'Kalam', cursive; /*cursive is the font's fallback value*/
     font-family: 'Montserrat Alternates', sans-serif; /*sans-serif is the font's fallback value*/
     background-color: #2B3C78;
-    color: aliceblue;
+    color: #2B3C78;
     width: max-width;
     background-repeat: no-repeat;
     background-size: cover; /* size of image to cover whole box which incl. padding */
@@ -16,7 +16,7 @@ body {
     padding: 25px 25px 25px 25px;
     border: 4.5px solid white;
     border-radius: 25px; /*all 4 sides are equal so only need to state the vlaue once*/
-    background-color: #2B3C78;
+    background-color: aliceblue;
 }
 img {
     width: 100%;
@@ -32,10 +32,10 @@ h1 {
     padding: 0;
     width: 100%;
     font-size: 45px;
-    color: #2B3C78;
+    color: aliceblue;
     text-align: center;
-    text-shadow: 5px 5px 10px black;
-    background-color: #2B3C78;
+    text-shadow: 5px 5px 10px #2B3C78;
+    background-color: aliceblue;
 }
 p,
 li {
@@ -52,10 +52,10 @@ figcaption {
 button {
     background-color: transparent;
     border-radius: 25px;
-    color: aliceblue;
+    color: #2B3C78;
 }
 button:hover {
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #2B3C78;
 }
 fieldset {
     border: none;
@@ -79,26 +79,26 @@ legend {
 }
 hr { /* horizontal rule */
     height: 1px;
-    background-color: aliceblue;
-    border-color: aliceblue;
+    background-color: #2B3C78;
+    border-color: #2B3C78;
 }
 a {
-    color: aliceblue;
+    color: black;
 }
 a:visited {
-    color: black;
+    color: #2B3C78;
 }
 a:hover {
-    color: aliceblue;
+    color: black;
 }
 a:active {
-    color: black;
+    color: #2B3C78;
 }
 .links {
     display: inline-block;
     width: 20%;
 }
 input {
-    background-color: black;
-    border: black;
+    background-color: aliceblue;
+    border: 1px solid #2B3C78;
 }
