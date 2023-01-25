@@ -68,14 +68,9 @@ legend {
     font-size: 10px;
     text-align: right;
 }
-.special {
+.why-poetry {
     display: inline-block;
-    width: 40%;
-}
-.read {
-    display: inline-block;
-    width: 40%;
-
+    width: 49%;
 }
 hr { /* horizontal rule */
     height: 1px;
