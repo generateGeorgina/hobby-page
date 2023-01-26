@@ -8,6 +8,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover; /* size of image to cover whole box which incl. padding */
     background-position: center;
+    background-attachment: fixed; /*to ensure html element is always covered*/
     background-image: url(../images/pexels-johannes-plenio-1477835.jpg);
 }
 body {
@@ -78,7 +79,7 @@ hr { /* horizontal rule */
     border-color: #2B3C78;
 }
 a {
-    color: black;
+    color: black; /* a or a:link is unvisited link */
 }
 a:visited {
     color: #2B3C78;
@@ -87,7 +88,7 @@ a:hover {
     color: black;
 }
 a:active {
-    color: #2B3C78;
+    color: #2B3C78; /* when clicked */
 }
 .links {
     display: inline-block;
