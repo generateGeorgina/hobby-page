@@ -98,3 +98,6 @@ input {
     background-color: aliceblue;
     border: 1px solid #2B3C78;
 }
+ul {
+    list-style-type: circle;
+}
