@@ -93,6 +93,7 @@ a:active {
 .links {
     display: inline-block;
     width: 20%;
+    text-align: center;
 }
 input {
     background-color: aliceblue;

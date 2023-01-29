@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <title>Spider Poem</title>
+    </head>
+    <main>
+        <header>
+            <p class="header"><a href="#bottom" >Jump to Bottom</a></p>
+        </header>
+        <body>
+            <cite>Spider Poem</cite> <!--cite defines title of creative work-->
+            <pre> <!-- this element defines pre-formatted text-->
+If there's a spider in your room
+How it got there? Won't find out soon
+Leave it to play
+Keep out of its way
+Until it's not safe to assume
+            </pre>
+            <a href="../info.html">Info Page</a>
+        </body>
+        <footer>
+            <p id="bottom" class="footer">Creative Commons License</p>
+        </footer>
+    </main>
+</html>
