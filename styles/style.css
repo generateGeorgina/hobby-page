@@ -70,8 +70,14 @@ legend {
     text-align: right;
 }
 .why-poetry {
-    display: inline-block;
-    width: 49%;
+    float: left; /* I used this method over "display: inline-block"; */
+    width: 50%;
+}
+@media (max-width: 750px) {
+    .why-poetry {
+        width: 100%;
+        height: auto;
+    }
 }
 hr { /* horizontal rule */
     height: 1px;
