@@ -73,11 +73,16 @@ legend {
     float: left; /* I used this method over "display: inline-block"; */
     width: 50%;
 }
-@media (max-width: 750px) {
+@media (max-width: 750px) { /* columns will stack */
     .why-poetry {
         width: 100%;
         height: auto;
     }
+}
+section: :after { /* clears floats after columns*/
+    content: "";
+    display: table;
+    clear: both;
 }
 hr { /* horizontal rule */
     height: 1px;
