@@ -1,3 +1,6 @@
+var date = new Date();
+var date2 = document.getElementById("date3");
+date2.innerHTML = date;
 const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
@@ -32,5 +35,3 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 };
-var date = new Date();
-document.getElementById("date").innerHTML = date;

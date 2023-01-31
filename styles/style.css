@@ -79,7 +79,7 @@ legend {
         height: auto;
     }
 }
-section: :after { /* clears floats after columns*/
+section::after { /* clears floats after columns*/
     content: "";
     display: table;
     clear: both;
