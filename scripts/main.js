@@ -32,3 +32,5 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 };
+var date = new Date();
+document.getElementById("date").innerHTML = date;
